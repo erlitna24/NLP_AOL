@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang – Narasi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <a href="index.html" class="logo">
+          <img
+            src="assets/logo.png"
+            alt="Narasi"
+            onerror="
+              this.style.display = 'none';
+              this.nextElementSibling.style.display = 'inline';
+            "
+          />
+          <span class="logo-text logo-fallback" style="display: none"
+            >Narasi</span
+          >
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Beranda</a></li>
+          <li><a href="tentang.html" class="nav-link active">Tentang</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ============ ABOUT CONTENT ============ -->
+    <main class="main-content tentang-main">
+      <section class="tentang-hero">
+        <h1 class="tentang-title">Tentang aplikasi ini</h1>
+        <p class="tentang-subtitle">
+          Pelajari cara kerja model, keterbatasannya, dan hal yang perlu
+          diperhatikan saat menggunakannya.
+        </p>
+      </section>
+
+      <div class="cards-grid">
+        <!-- CARD 1 -->
+        <div class="about-card glass-card">
+          <div class="about-card-icon">
+            <!-- Sparkle / AI icon purple -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="38"
+              height="38"
+              viewBox="0 0 24 24"
+              fill="#a855f7"
+            >
+              <path
+                d="M12 2l2.09 6.26L20 10l-5.91 1.74L12 18l-2.09-6.26L4 10l5.91-1.74L12 2z"
+              />
+              <path
+                d="M5 3l.9 2.7L8.6 6.5 5.9 7.3 5 10l-.9-2.7L1.4 6.5l2.7-.8L5 3z"
+                opacity="0.6"
+              />
+            </svg>
+          </div>
+          <div class="about-card-body">
+            <h3 class="about-card-title">Deteksi headline berbasis AI</h3>
+            <p class="about-card-desc">
+              Aplikasi ini menganalisis judul berita untuk memprediksi apakah
+              headline termasuk clickbait atau non-clickbait berdasarkan pola
+              bahasa dan konteks teks.
+            </p>
+          </div>
+          <div class="about-card-footer">
+            <span class="badge-footer">
+              <!-- Gear/atom icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#a855f7"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="3" />
+                <path
+                  d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"
+                />
+                <path d="M12 2v2M12 20v2M2 12h2M20 12h2" />
+              </svg>
+              Powered by indoBERT
+            </span>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="about-card glass-card">
+          <div class="about-card-icon icon-orange">
+            <!-- Exclamation mark orange -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="38"
+              height="38"
+              viewBox="0 0 24 24"
+              fill="#f97316"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <line
+                x1="12"
+                y1="8"
+                x2="12"
+                y2="13"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-linecap="round"
+              />
+              <circle cx="12" cy="16.5" r="1.2" fill="white" />
+            </svg>
+          </div>
+          <div class="about-card-body">
+            <h3 class="about-card-title">Prediksi tidak selalu 100% tepat</h3>
+            <p class="about-card-desc">
+              Hasil deteksi bersifat probabilistik, sehingga masih ada
+              kemungkinan prediksi tidak sesuai. Gunakan sebagai alat bantu
+              analisis, bukan keputusan final.
+            </p>
+          </div>
+          <div class="about-card-footer">
+            <span class="badge-footer badge-orange">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#f97316"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="13" />
+                <circle cx="12" cy="16.5" r="1" />
+              </svg>
+              May contain errors
+            </span>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="about-card glass-card">
+          <div class="about-card-icon icon-red">
+            <!-- Shield red -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="38"
+              height="38"
+              viewBox="0 0 24 24"
+              fill="#ef4444"
+            >
+              <path
+                d="M12 2L4 5v6c0 5.25 3.5 10.15 8 11.5C16.5 21.15 20 16.25 20 11V5l-8-3z"
+              />
+              <line
+                x1="12"
+                y1="8"
+                x2="12"
+                y2="13"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-linecap="round"
+              />
+              <circle cx="12" cy="16" r="1.2" fill="white" />
+            </svg>
+          </div>
+          <div class="about-card-body">
+            <h3 class="about-card-title">
+              Clickbait halus bisa tidak terdeteksi
+            </h3>
+            <p class="about-card-desc">
+              Beberapa headline clickbait dapat terlihat aman jika menggunakan
+              bahasa yang halus atau ambigu. Tetap periksa isi berita untuk
+              memahami konteks lengkap.
+            </p>
+          </div>
+          <div class="about-card-footer">
+            <span class="badge-footer badge-red">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ef4444"
+                stroke-width="2"
+              >
+                <path
+                  d="M12 2L4 5v6c0 5.25 3.5 10.15 8 11.5C16.5 21.15 20 16.25 20 11V5l-8-3z"
+                />
+              </svg>
+              Stay critical
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

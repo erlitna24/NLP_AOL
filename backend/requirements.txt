@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+torch
+transformers
+safetensors
+numpy
+scikit-learn
+lime
+pydantic
+huggingface_hub

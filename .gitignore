@@ -1,0 +1,25 @@
+# Dataset
+data_1/
+data/
+dataset/
+*.csv
+
+# Model and training outputs
+outputs_indobert/
+outputs/
+models/
+checkpoint-*/
+model.safetensors
+pytorch_model.bin
+optimizer.pt
+scheduler.pt
+rng_state.pth
+trainer_state.json
+training_args.bin
+
+# Python cache
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
